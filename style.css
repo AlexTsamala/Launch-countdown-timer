@@ -55,6 +55,7 @@ header{
     border-radius: 4px;
     background-color: #343650;
     position: relative;
+    box-shadow: 0px 5px 10px black;
 }
 
 hr{
@@ -117,4 +118,78 @@ hr{
     color:#8385A9;
     width:24px;
     height:24px;
+    font-size: 24px;
+}
+
+.social-media i:hover{
+    color: #FB5E84;
+}
+
+@media(min-width:1440px) {
+header{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 7.5px;
+    min-width: 440px;
+}
+
+.main-container{
+    margin-top:132px;
+    gap: 104px;
+}
+
+.time-sections{
+    height: 140px;
+    width: 148px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+    width:148px;
+    height:1px;
+    opacity: 0.25;
+    top: 70px;
+}
+
+.time-numbers{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -2.4px;
+    text-align: center;
+    color: #FB5E84;
+}
+
+.right-circle{
+    height: 12px;
+    width: 6px;
+    position: absolute;
+    top: 65px;
+    left: 142px;
+}
+
+.left-circle{
+    height: 12px;
+    width:6px;
+    position: absolute;
+    top: 65px;
+    left: 0;
+}
+
+.time-specifications{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 6px;
+}
+
+.social-media{
+    background-size: 100% 100%;
+}
+
+
 }
