@@ -1,4 +1,4 @@
-const target = new Date("December 31, 2023 00:00:00");
+const target = new Date("December 31, 2024 00:00:00");
 const day = document.getElementById("day");
 const hour = document.getElementById("hour");
 const minute = document.getElementById("minute");
